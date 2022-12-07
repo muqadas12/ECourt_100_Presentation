@@ -123,25 +123,6 @@ import CauselList  from  "./pages/CMS/CauseList";
 import CaseRecording  from  "./pages/CMS/CaseRecording";
 import Caseproceeingss  from  "./pages/CMS/CaseProceeding";
 
-// import AdminFunctionalities from  "./pages/CMS/AdminFunctionalities";
-
-
-
-
-
-
-
-
-
-
-
-
-///
-
-
-
-
-
 const  App=()=> {
   return <Router history={history}>
   <Scroll/>
@@ -228,10 +209,6 @@ const  App=()=> {
     <Route path="/judge/ViewSummonstatus" component={ViewSummonstatus} ></Route>
     <Route path="/ArrestP" component={ArrestP} ></Route>
 
-
-
-
-
     <Route path="/ESummon" component={ESummon} ></Route>
     <Route path="/ArrestWarrant" component={ArrestWarrant} ></Route>
     <Route path="/ViewEFilling" component={ViewEFilling} ></Route>
@@ -279,35 +256,6 @@ const  App=()=> {
 <Route path="/CauselList" component={CauselList}></Route>
 <Route path="/CaseRecording" component={CaseRecording}></Route>
 <Route path="/Caseproceeingss" component={Caseproceeingss}></Route>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </main>
